@@ -1,5 +1,4 @@
 import API from "./api"
-import interestFormInput from "./interestForm";
 
 let interestToDOM = () => {
   const interestItems = document.getElementById("output")
