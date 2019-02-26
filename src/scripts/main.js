@@ -1,4 +1,5 @@
-import makePointOfInterest from "./interestComponent"
+import interestToDOM from "./interestsToDOM"
 import API from "./api"
-makePointOfInterest()
-API.getInterest(interests)
+import interestForm from "./interestComponent";
+API.getInterest(interestToDOM)
+interestToDOM(interestForm)
