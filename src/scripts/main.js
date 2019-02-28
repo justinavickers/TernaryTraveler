@@ -5,5 +5,6 @@ import travelerListeners from "./travelerListeners";
 API.getInterest(interestToDOM)
 interestToDOM(interestForm)
 travelerListeners.addInterestListener()
+travelerListeners.deleteInterest()
 
 

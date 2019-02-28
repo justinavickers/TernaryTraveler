@@ -1,6 +1,6 @@
 import interestForm from "./interestComponent";
 
-const APIfunctions = {
+const API = {
   getInterest(){
    return fetch("http://localhost:3000/interests")
     .then(interest => interest.json())
@@ -23,4 +23,4 @@ const APIfunctions = {
   }
 
 }
-export default APIfunctions
+export default API

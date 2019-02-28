@@ -24,22 +24,14 @@
       "description": "Local market where you can try purchase local products and try the local food"
     },
     {
-      "id": 2
-    },
-    {
-      "name": "TESTING",
-      "description": "",
-      "id": 3
-    },
-    {
-      "name": "justinaV",
-      "description": "afdghjr",
-      "id": 4
-    },
-    {
       "name": "justinaV",
       "description": "test2222",
       "id": 5
+    },
+    {
+      "name": "Traveler",
+      "description": "Finish this project",
+      "id": 6
     }
   ]
 }
