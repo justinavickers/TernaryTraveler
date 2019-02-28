@@ -3,7 +3,7 @@ const interestFormInput = (interests) =>{
   <div class="interestCard">
   <h3>${interests.name}</h3>
   <h3>${interests.description}</h3>
-  <h3>${interests.placeId}</h3>
+  <button id="deleteInterest">Delete</button>
   </div>
   `
 }

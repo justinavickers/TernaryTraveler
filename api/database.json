@@ -22,6 +22,9 @@
       "placeId": 1,
       "name": "Local Market",
       "description": "Local market where you can try purchase local products and try the local food"
-      }
+    },
+    {
+      "id": 2
+    }
   ]
 }

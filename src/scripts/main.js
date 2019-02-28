@@ -4,4 +4,6 @@ import interestForm from "./interestComponent";
 import travelerListeners from "./travelerListeners";
 API.getInterest(interestToDOM)
 interestToDOM(interestForm)
-travelerListeners.addInterest()
+travelerListeners.addInterestListener()
+
+

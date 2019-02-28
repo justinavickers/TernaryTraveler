@@ -7,7 +7,6 @@ let interestToDOM = () => {
   interestItems.innerHTML += interestToDOM
   API.getInterest()
     .then(parsedInterests =>  renderInterests(parsedInterests))
-      console.log(parsedInterests)
 }
 
 export default interestToDOM
