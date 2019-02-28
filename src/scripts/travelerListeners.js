@@ -25,9 +25,10 @@ let travelerListeners = {
       if (e.target.id.startsWith("deleteInterest--")) {
         const interestId = event.target.id.split("--")[1]
         API.deleteInterest(interestId)
-          .then((e) => {
-            API.getInterest(e).then(renderInterests)
-          })
+        .then((e) => {
+          API.getInterest(e).then(renderInterests)
+        })
+        alert("Are you sure you want to delete this item?")
       }
     })
   }

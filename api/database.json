@@ -22,16 +22,6 @@
       "placeId": 1,
       "name": "Local Market",
       "description": "Local market where you can try purchase local products and try the local food"
-    },
-    {
-      "name": "justinaV",
-      "description": "test2222",
-      "id": 5
-    },
-    {
-      "name": "Traveler",
-      "description": "Finish this project",
-      "id": 6
     }
   ]
 }
