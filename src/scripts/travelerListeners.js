@@ -24,11 +24,17 @@ let travelerListeners = {
     deleteButton.addEventListener("click", (e) => {
       if (e.target.id.startsWith("deleteInterest--")) {
         const interestId = event.target.id.split("--")[1]
-        API.deleteInterest(interestId)
-        .then((e) => {
-          API.getInterest(e).then(renderInterests)
-        })
-        alert("Are you sure you want to delete this item?")
+        // var answer = window.confirm("Are you sure you want to delete this item?")
+        if (confirm("Are you sure you want to delete this item?")) {
+          alert("Yes");
+          API.deleteInterest(interestId)
+            .then((e) => {
+              API.getInterest(e).then(renderInterests)
+            })
+        }
+        else {
+          alert("No");
+        }
       }
     })
   }
