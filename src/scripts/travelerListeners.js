@@ -7,11 +7,15 @@ let travelerListeners = {
   addInterestListener: () => {
     const locationButton = document.getElementById("output")
     locationButton.addEventListener("click", (e) => {
+      let saveInput = {
+        name: document.getElementById("name").value,
+        description: document.getElementById("description").value
+      }
      if (e.target.id.startsWith("locationOfInterest")) {
-       console.log(addInterest)
-      API.addInterest(interestFormInput)
-      .then(() => {
-        API.getInterest(renderInterests)})
+      //  console.log(addInterestListener)
+      API.addInterest(saveInput)
+      .then((e) => {
+        API.getInterest(e).then(renderInterests)})
      }
     })
   },
